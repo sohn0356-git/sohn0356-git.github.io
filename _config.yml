@@ -108,13 +108,13 @@ show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
 
-# # algolia search
-# algolia:
-#   application_id: I3Q91YUEOX
-#   index_name: GyeongJu_blog # You can replace that with whatever name you want
-#   files_to_exclude: []
-#   nodes_to_index: 'article'
-#   search_only_api_key: 750776805b7541274ad67a27c3b3f72c
+# algolia search
+algolia:
+  application_id: S59QEBB39T
+  index_name: sohn0356_blog # You can replace that with whatever name you want
+  files_to_exclude: []
+  nodes_to_index: 'article'
+  search_only_api_key: 0c000bf80cb09ed464ac54a53d265426
 
 # pagination of posts
 paginate: 4
