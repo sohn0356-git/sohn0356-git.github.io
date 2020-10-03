@@ -1,3 +1,4 @@
 User-agent: *
- Allow: /
- Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}
+Allow: /
+
+Sitemap: https://sohn0356-git.github.io/sitemap.xml
