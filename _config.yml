@@ -14,6 +14,8 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
+    - title: Tags
+      url: /tags
 #    - text: Shop
 #      url : /shop
 #    - text: Contact Me
