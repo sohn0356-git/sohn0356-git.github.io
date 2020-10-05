@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DIJKSTRA 대한 "
+title:  "DIJKSTRA 대한 ㅁㅇㅁ"
 summary: Graph 알고리즘 공부
 author: GJ
 date: '2020-10-05 15:04:23 +0530'
