@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "DIJKSTRA 대해 araboza"
+title:  "DIJKSTRA 대한 얇은 탐구"
 summary: Graph 알고리즘 공부
 author: GJ
 date: '2020-10-05 15:04:23 +0530'
 category: algorithm
 comment: true
-tags: [algorithm, dijkstra, araboza]
+tags: [algorithm, dijkstra, 얇은 탐구]
 thumbnail: /assets/img/posts/dijkstra.jpg
 ---
 
