@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "KMP에 대해 araboza"
-summary: 문자열 알고리즘 공부
+summary: Graph 알고리즘 공부
 author: GJ
 date: '2020-10-05 15:04:23 +0530'
 category: algorithm
 comment: true
 tags: [algorithm, dijkstra, araboza]
-thumbnail: /assets/img/posts/KMP.jpg
+thumbnail: /assets/img/posts/dijkstra.jpg
 ---
 
 
