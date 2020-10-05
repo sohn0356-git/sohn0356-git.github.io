@@ -14,8 +14,8 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Categories
-      url: /Categories
+#     - text: Categories
+#       url: /Categories
 #    - text: Shop
 #      url : /shop
 #    - text: Contact Me
