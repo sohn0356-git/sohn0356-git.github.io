@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="tag">
+    <div>
+        <header class="post-header">
+            <h1 class="page-heading">Tag cloud</h1>
+        </header>
+
+        <div>
+            {% include tag_cloud.html %}
+        </div>  
+
+        <div>
+            {%  for tag in site.tags %}
+                <!-- tag_name 변수 지정: 태그명은 소문자화(slugize) 한다 -->
+                {% capture tag_name %}{{tag|first|slugize}}{% endcapture %}
+                <!-- tag_size 변수 지정-->
+                {% capture tag_size %}{{tag|last|size}}{% endcapture %}
+                <!-- font_size 변수 지정: 태그숫자/전체태그숫자 * 100 + 50 -->
+                {% capture font_size %}{{tag_size | times: site.tags.size | divided_by:site.tags.size | plus: 14 }}{% endcapture %}
+
+                <div class="tagname">
+                    <a href="/tags/archives#{{tag_name}}" style="font-size:{{font_size}}px">{{ tag_name }}</a>
+                </div>
+            {% endfor %}
+        </div> 
+    </div>
+</article>
