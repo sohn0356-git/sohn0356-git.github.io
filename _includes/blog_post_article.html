@@ -29,7 +29,7 @@
       assign tags = page.tags %} {% endif %} Tag : {% for
       tag in tags %}
       <a href="{{site.baseurl}}/blog/tags/{{tags|slugize}}"
-        >{{tags}}</a
+        >{{tag}}</a
       >
       {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
     </div>
