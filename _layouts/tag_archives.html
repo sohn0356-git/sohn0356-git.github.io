@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<article class="home">
+    <div>
+        <header class="post-header">
+            <h1 class="page-heading">Archives by tag</h1>
+        </header>
+        <div>
+            {% for tag in site.tags%}
+            <div style="margin-bottom: 50px;">
+                {% capture tag_name %}{{tag|first|slugize}}{% endcapture %}
+                <div id="{{ tag_name }}"></div>
+                <h4 class="category-head">* {{ tag_name }}</h4>
+                <ul class="post-archives">
+                {% for post in site.tags[tag_name] %}
+                  <li style="margin-left: 20px;">
+                      <span class="post-meta">
+                        {{ post.date | date: "%b %-d, %Y" }}
+                        {% if post.categories != empty or post.tags != empty %}
+                          {% include category_links.html categories=post.categories tags=post.tags %}
+                        {% endif %}
+                        {% if post.external-url %}
+                          • <a href="{{ post.url | relative_url }}">Permalink</a>
+                        {% endif %}
+                      </span>
+              
+                      <h2>
+                        {% if post.external-url %}
+                          <a class="post-link" href="{{ post.external-url }}">{{ post.title | escape }} &rarr;</a>
+                        {% else %}
+                          <a class="post-link" href="{{ post.url | relative_url }}"{% if lang != empty %} lang="{{ lang }}"{% endif %}>{{ post.title | escape }}</a>
+                        {% endif %}
+                      </h2>
+                    </li>
+                    
+                  {% endfor %}
+                  </ul>
+              </div>
+              
+              {% endfor %}
+        </div>    
+    </div>
+  
+    {% if true or site.disqus.comments == true and jekyll.environment == "production" %}
+      <div class="post-comments" itemprop="comment">
+        {% include custom_comments_provider.html %}
+      </div>
+    {% endif %}    
+  </article>
