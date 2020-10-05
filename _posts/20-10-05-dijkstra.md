@@ -113,5 +113,9 @@ while(prev!=-1)
 }
 ```
 
+> [Problem solution](../baekjoon_1753)
+
+> [Problem2 solution](../baekjoon_11779)
+
 ---
 ## The end
