@@ -24,6 +24,15 @@
       >
       {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
     </div>
+    <div class="post-tags">
+      {% if post %} {% assign categories = post.tags %} {% else %} {%
+      assign tags = page.tags %} {% endif %} Tag : {% for
+      tag in tags %}
+      <a href="{{site.baseurl}}/blog/tags/{{tags|slugize}}"
+        >{{tags}}</a
+      >
+      {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
+    </div>
   </div>
 
   <div class="card-body" itemprop="articleBody">
