@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DIJKSTRA 대한 밍기적"
+title:  "DIJKSTRA에 대한 밍기적"
 summary: Graph 알고리즘 공부
 author: GJ
 date: '2020-10-05 15:04:23 +0530'
