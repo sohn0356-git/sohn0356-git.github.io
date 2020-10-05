@@ -72,7 +72,7 @@ while(!pq.empty())
 * `DIJKSTRA` 알고리즘을 정복했다. 이를 활용해서 문제를 풀고 싶다면 [Problem](https://www.acmicpc.net/problem/1753)를 들어가 보기를 바란다.
 
 ### 그런데 이렇게 끝내기에는 뭔가 아쉽다는 생각이 든다.
-    그래서 [Problem2](https://www.acmicpc.net/problem/11779)를 준비했다.
+#### 그래서 [Problem2](https://www.acmicpc.net/problem/11779)를 준비했다.
     똑똑한 여러분이라면 이제 `DIJKSTRA`정도는 쉽게 풀 것이다. 그러나 DP 문제에서도 그렇지만
     최소가 되는 경로를 출력하라고 하면 익숙하지 않은 사람도 분명 있을 것이라 생각한다.
 
