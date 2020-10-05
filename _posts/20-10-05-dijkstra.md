@@ -113,9 +113,9 @@ while(prev!=-1)
 }
 ```
 
-> [Problem solution](../baekjoon_1753)
+> [Problem solution](../../../../solution/2020/10/05/baekjoon_1753)
 
-> [Problem2 solution](../baekjoon_11779)
+> [Problem2 solution](../../../../solution/2020/10/05/baekjoon_11779)
 
 ---
 ## The end
