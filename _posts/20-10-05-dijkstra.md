@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "KMP에 대해 araboza"
+title:  "DIJKSTRA 대해 araboza"
 summary: Graph 알고리즘 공부
 author: GJ
 date: '2020-10-05 15:04:23 +0530'
@@ -71,14 +71,14 @@ while(!pq.empty())
 
 * `DIJKSTRA` 알고리즘을 정복했다. 이를 활용해서 문제를 풀고 싶다면 [Problem](https://www.acmicpc.net/problem/1753)를 들어가 보기를 바란다.
 
-    ### 그런데 이렇게 끝내기에는 뭔가 아쉽다는 생각이 든다.
+### 그런데 이렇게 끝내기에는 뭔가 아쉽다는 생각이 든다.
     그래서 [Problem2](https://www.acmicpc.net/problem/11779)를 준비했다.
     똑똑한 여러분이라면 이제 `DIJKSTRA`정도는 쉽게 풀 것이다. 그러나 DP 문제에서도 그렇지만
     최소가 되는 `경로`를 출력하라고 하면 익숙하지 않은 사람도 분명 있을 것이라 생각한다.
 
     Stack을 활용하면 이를 멋드러지게 해결할 수 있어서 이 방법을 소개하려고 한다.
 
-1. stack과 배열을 준비한다.
+1.stack과 배열을 준비한다.
 
 
 ```cpp
@@ -87,7 +87,7 @@ int starting_point[N_vertex];   //최단 경로를 추적하기 위한 녀석으
 ```
 
 
-2. 우리는 정점을 한 개씩 방문하면서 cost를 갱신해주는 작업을 해주었다. 이 때 Code 한 줄을 끼어넣어보자
+2.우리는 정점을 한 개씩 방문하면서 cost를 갱신해주는 작업을 해주었다. 이 때 Code 한 줄을 끼어넣어보자
 
 
 ```cpp
@@ -100,7 +100,7 @@ if(min_cost[next.to]>min_cost[cur_vertex]+next.cost)
 ```
 
 
-3. 마지막으로 이를 출력해보자
+3.마지막으로 이를 출력해보자
 
 
 ```cpp
