@@ -74,7 +74,7 @@ while(!pq.empty())
 ### 그런데 이렇게 끝내기에는 뭔가 아쉽다는 생각이 든다.
     그래서 [Problem2](https://www.acmicpc.net/problem/11779)를 준비했다.
     똑똑한 여러분이라면 이제 `DIJKSTRA`정도는 쉽게 풀 것이다. 그러나 DP 문제에서도 그렇지만
-    최소가 되는 `경로`를 출력하라고 하면 익숙하지 않은 사람도 분명 있을 것이라 생각한다.
+    최소가 되는 경로를 출력하라고 하면 익숙하지 않은 사람도 분명 있을 것이라 생각한다.
 
     Stack을 활용하면 이를 멋드러지게 해결할 수 있어서 이 방법을 소개하려고 한다.
 
@@ -92,11 +92,11 @@ int starting_point[N_vertex];   //최단 경로를 추적하기 위한 녀석으
 
 ```cpp
 if(min_cost[next.to]>min_cost[cur_vertex]+next.cost)
-        {
-            min_cost[next.to] = min_cost[cur_vertex] + next.cost;
-            pq.push({-min_cost[next.to],next.to});
-            starting_point[next.to] = cur_vertex;
-        }
+{
+    min_cost[next.to] = min_cost[cur_vertex] + next.cost;
+    pq.push({-min_cost[next.to],next.to});
+    starting_point[next.to] = cur_vertex;
+}
 ```
 
 
