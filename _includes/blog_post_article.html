@@ -28,7 +28,7 @@
       {% if post %} {% assign tags = post.tags %} {% else %} {%
       assign tags = page.tags %} {% endif %} Tag : {% for
       tag in tags %}
-      <a href="{{site.baseurl}}/blog/tags/{{tags|slugize}}"
+      <a href="{{site.baseurl}}/blog/tags/{{tag|slugize}}"
         >{{tag}}</a
       >
       {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
