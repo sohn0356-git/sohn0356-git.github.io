@@ -11,9 +11,9 @@ thumbnail: /assets/img/posts/FenwickTree.jpg
 ---
 
 
-# [Problem](https://www.acmicpc.net/problem/11659)
+## [Problem](https://www.acmicpc.net/problem/11659)
 
-* 귀찮아서 문제를 읽어보지 않을 수도 있기 때문에 간단하게 문제 설명을 해보겠다.
+* 문제를 읽기 귀찮은 분들을 위해 간단하게 설명을 해보겠다.
 
     크기 N의 배열이 있다. M번의 query가 주어지고 각 쿼리에는 시작 index와 끝 index가 있다.
     쿼리에서 주어진 구간에서 주어진 배열의 부분합을 구하시오
