@@ -46,7 +46,7 @@
     <br />
     {{ content }}
     <br />
-    
+    {%- include share_page.html -%}
   </div>
   <!--
   {%- if site.disqus_shortname -%}
@@ -61,9 +61,9 @@
       <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}
       </a>  
    {% endif %}  
-    {%- include share_page.html -%}
+    
    {% if page.next.url %}  
-     <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>  
+     <a class="next" text-align:right href="{{page.next.url}}">{{page.next.title}} &raquo;</a>  
    {% endif %}  
 </div>
 
