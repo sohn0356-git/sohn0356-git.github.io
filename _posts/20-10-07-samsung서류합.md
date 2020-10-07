@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "삼성 서류 합격 및 코테 준비"
-summary: 코딩테스트 준비
+summary: 삼성 서류합
 author: GJ
 date: '2020-10-07 14:25:23 +0530'
 category: Employment
@@ -12,7 +12,7 @@ thumbnail: /assets/img/posts/paper.jpg
 
     알람소리에 힘겹게 뜬 눈으로 핸드폰을 켰더니 삼성 서류 결과가 나왔다는 카톡이...
     잠도 덜 깬 상태로 홈피로 직행!(손이 덜덜...)
-#   그리고 결과는 !!!!
+    그리고 결과는 !!!!
 
 ![result](https://drive.google.com/uc?export=view&id=1MsTCrXPc8SfSYSrIjhaOZOcgIE2SmGph)
 
