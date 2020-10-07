@@ -6,7 +6,7 @@ author: GJ
 date: '2020-10-07 14:25:23 +0530'
 category: Employment
 comment: true
-tags: [Employment]
+tags: [Employment, samsung]
 thumbnail: /assets/img/posts/paper.jpg
 ---
 
