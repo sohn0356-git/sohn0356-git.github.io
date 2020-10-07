@@ -31,15 +31,15 @@ https://www.acmicpc.net/workbook/view/2047
 https://www.acmicpc.net/workbook/view/2048
 
 [시뮬뽀개기]
-https://www.acmicpc.net/problem/2933         
-https://www.acmicpc.net/problem/11559       
-https://www.acmicpc.net/problem/3568         
-https://www.acmicpc.net/problem/2290         
-https://www.acmicpc.net/problem/16113       
-https://www.acmicpc.net/problem/15898       
+https://www.acmicpc.net/problem/2933         ok
+https://www.acmicpc.net/problem/11559       ok
+https://www.acmicpc.net/problem/3568         ok
+https://www.acmicpc.net/problem/2290         ok
+https://www.acmicpc.net/problem/16113       ok
+https://www.acmicpc.net/problem/15898       ok
 https://www.acmicpc.net/problem/15778
-https://www.acmicpc.net/problem/1194         
-https://www.acmicpc.net/problem/3197         
+https://www.acmicpc.net/problem/1194         ok
+https://www.acmicpc.net/problem/3197         ok
 https://www.acmicpc.net/problem/6987
 https://www.acmicpc.net/problem/8911
 https://www.acmicpc.net/problem/16506
