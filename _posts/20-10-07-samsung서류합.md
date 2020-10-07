@@ -4,7 +4,7 @@ title:  "삼성 서류 합격 및 코테 준비"
 summary: 코딩테스트 준비
 author: GJ
 date: '2020-10-07 14:25:23 +0530'
-category: 취업
+category: Employment
 comment: true
 tags: [Employment]
 thumbnail: /assets/img/posts/paper.jpg
