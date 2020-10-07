@@ -14,7 +14,7 @@ thumbnail: /assets/img/posts/paper.jpg
     잠도 덜 깬 상태로 홈피로 직행!(손이 덜덜...)
 #   그리고 결과는 !!!!
 
-![result](https://drive.google.com/uc?export=view&id=1OVaZH7xUxh3YmubbE43FJfP4gPAO0cMF)
+![result](https://drive.google.com/uc?export=view&id=1MsTCrXPc8SfSYSrIjhaOZOcgIE2SmGph)
 
     감사하게도 합격이었다!! 상반기 때 서류 광탈해서 너무 슬펐는데 ㅠ_ㅠ
     쓰던 자소서 던져놓고 오늘부터 삼성 코테 준비를 하려한다.
