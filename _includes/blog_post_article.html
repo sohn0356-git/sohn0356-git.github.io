@@ -57,13 +57,18 @@
 -->
    <div id="disqus_thread"></div>
 <div class="pagination">  
+  <style>
+      ne{
+        text-align: right;
+      }
+    </style>
    {% if page.previous.url %}  
       <a href="{{page.previous.url}}" align="middle">&laquo; {{page.previous.title}}
       </a>  
    {% endif %}  
     
    {% if page.next.url %}  
-     <a text-align:right href="{{page.next.url}}">{{page.next.title}} &raquo;</a>  
+     <ne href="{{page.next.url}}">{{page.next.title}} &raquo;</ne>  
    {% endif %}  
 </div>
 
