@@ -10,9 +10,10 @@ tags: [Employment]
 thumbnail: /assets/img/posts/paper.jpg
 ---
 
-    어렵게 뜬 눈으로 카톡을 봤는데 삼성 서류 결과가 나왔다는 카톡을 받았다.
+    알람소리에 힘겹게 뜬 눈으로 핸드폰을 켰더니 삼성 서류 결과가 나왔다는 카톡이...
     잠도 덜 깬 상태로 홈피로 직행!(손이 덜덜...)
 #   그리고 결과는 !!!!
+
 ![result](https://drive.google.com/uc?export=view&id=1OVaZH7xUxh3YmubbE43FJfP4gPAO0cMF)
 
     감사하게도 합격이었다!! 상반기 때 서류 광탈해서 너무 슬펐는데 ㅠ_ㅠ
