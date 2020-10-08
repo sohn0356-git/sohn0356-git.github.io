@@ -42,7 +42,7 @@ https://www.acmicpc.net/problem/1194         ok
 https://www.acmicpc.net/problem/3197         ok
 https://www.acmicpc.net/problem/6987         ok
 https://www.acmicpc.net/problem/8911         ok
-https://www.acmicpc.net/problem/16506
+https://www.acmicpc.net/problem/16506        ok
 
 [백준 연습해보기]
 https://www.acmicpc.net/problem/9663
