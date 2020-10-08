@@ -41,7 +41,7 @@ https://www.acmicpc.net/problem/15778
 https://www.acmicpc.net/problem/1194         ok
 https://www.acmicpc.net/problem/3197         ok
 https://www.acmicpc.net/problem/6987         ok
-https://www.acmicpc.net/problem/8911
+https://www.acmicpc.net/problem/8911         ok
 https://www.acmicpc.net/problem/16506
 
 [백준 연습해보기]
