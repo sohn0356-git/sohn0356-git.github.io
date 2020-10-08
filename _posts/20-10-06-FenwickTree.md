@@ -51,7 +51,7 @@ int main()
 }
 ```
 
-![TLE](https://drive.google.com/uc?export=view&id=1OVaZH7xUxh3YmubbE43FJfP4gPAO0cMF)
+![TLE](https://drive.google.com/uc?export=view&id=1OVaZH7xUxh3YmubbE43FJfP4gPAO0cMF/view?usp=sharing)
 
 ### 현실은 냉정한 법이었다. 그래서 준비했다.
 
