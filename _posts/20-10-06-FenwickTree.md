@@ -129,6 +129,6 @@ void update(vector<int> &tree, int target, int diff)
 #### FenwickTree는 Trie와는 반대로 익숙해지는건 금방이지만 이해는 쉽지가 않은 자료구조같다.
 #### 관련 문제로는 [Problem2](https://www.acmicpc.net/problem/2042)가 있다.
 
-> [Problem solution](../../../../../solution/2020/10/06/baekjoon_11659)
+> [Problem solution](../../../../../solution/2020/10/06/백준-11659)
 
-> [Problem2 solution](../../../../../solution/2020/10/06/baekjoon_2042)
+> [Problem2 solution](../../../../../solution/2020/10/06/백준-2042)
