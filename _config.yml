@@ -1,7 +1,7 @@
 title: 경주의 코딩일기
 subtitle: 코딩테스트 review & 공부노트 
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+  경주의 algorithm 정리 및 코딩 review 블로그입니다
 
 url: "https://sohn0356-git.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
