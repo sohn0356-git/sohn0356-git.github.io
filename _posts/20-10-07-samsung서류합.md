@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "삼성 서류 합격 및 코테 준비"
+title:  "20 하반기 삼성 서류 합격 및 코테 준비"
 summary: 삼성 서류합
 author: GJ
 date: '2020-10-07 14:25:23 +0530'
