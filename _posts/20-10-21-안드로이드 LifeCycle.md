@@ -154,6 +154,8 @@ onPause 메소드가 호출된 다음 onSaveInstanceState를 호출하여 data�
 
 Intent와 비슷하다. 그 후 onStart 메소드가 호출된 뒤 onRestoreInstanceState가 호출되면서 기존의 데이터를 유지할 수 있게 된다.
 
+#  　
+
 전체 코드를 보면서 한 번씩 따라해보면 면접 때까지는 기억에 남을 것이다.
 
 
