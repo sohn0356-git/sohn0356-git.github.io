@@ -130,11 +130,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
 그러면 여기서 문제! 다음과 같이 +버튼을 누르면 숫자가 올라가는 앱을 개발했다고 치자.
 
-![Life Cycle](https://drive.google.com/uc?export=view&id=1P53iLeB2D-QT51Ir1401nFanJSnIyK0i)
-
-#  　
-
-![Life Cycle](https://drive.google.com/uc?export=view&id=1rm6rfFG_ZZ6Wsj62XZf1ca6_U5jQa5eu)
+![Life Cycle](https://drive.google.com/uc?export=view&id=1P53iLeB2D-QT51Ir1401nFanJSnIyK0i) ![Life Cycle](https://drive.google.com/uc?export=view&id=1rm6rfFG_ZZ6Wsj62XZf1ca6_U5jQa5eu)
 
 #  　
 
