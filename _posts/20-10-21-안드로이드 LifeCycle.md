@@ -29,15 +29,15 @@ Life Cycle에 관련된 내용으로 Activity가 실행될 때 어떤 메소드�
 
 onCreate -> onStart -> onResume
 
-onCreate
+`onCreate`
 
 - 화면이 메모리에 만들어지고 여러 초기화 과정을 진행하게 된다.
 
-onStart
+`onStart`
 
 - 화면 기능을 실행할 준비를 한다.
 
-onResume
+`onResume`
 
 - activity가 화면 맨 앞에서(foreground) 동작 중인 상태로 사용자와 상호작용을 한다.
 
@@ -47,21 +47,21 @@ onResume
 
 onPause -> onStop -> onDestroy
 
-onPause
+`onPause`
 
 - 사용자가 activity를 벗어나게 되면 제일 먼저 호출되는 메소드이다.
 
 부분적으로 activity가 가려진 상태로 메모리가 부족하면 강제 종료될 수도 있다.
 
-onStop
+`onStop`
 
 - 이번에는 activity가 완전히 가려진 상태이다. 메모리가 부족하면 우선적으로 강제종료된다.
 
-onDestroy
+`onDestroy`
 
 - Activity가 소멸되기 전에 호출된다
 
-onStop 상태에서 다시 activity로 돌아갈 경우 onRestart라는 메소드를 호출하게 된다.
+`onStop` 상태에서 다시 activity로 돌아갈 경우 `onRestart`라는 메소드를 호출하게 된다.
 
 #  　
 
