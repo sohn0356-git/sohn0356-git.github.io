@@ -16,7 +16,7 @@ thumbnail: /assets/img/posts/android.png
 
 Life Cycle에 관련된 내용으로 Activity가 실행될 때 어떤 메소드들이 호출되는지 함께 알아보자
 
-먼저 전체 Life Cycle이다.
+먼저 전체 Life Cycle를 그림으로 살펴보자!
 
 #  　
 
@@ -43,7 +43,7 @@ onResume
 
 #  　
 
-이후 Home 버튼이나 Activity가 종료될 때 3가지 메소드가 호출된다.
+이후 Activity가 종료될 때 3가지 메소드가 호출된다.
 
 onPause -> onStop -> onDestroy
 
