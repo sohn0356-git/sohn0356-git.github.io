@@ -20,8 +20,7 @@ thumbnail: /assets/img/posts/paper.jpg
 
 #  　
 
-![result](https://drive.google.com/uc?export=view&id=1MsTCrXPc8SfSYSrIjhaOZOcgIE2SmGph)
-
+<img src="http://drive.google.com/uc?export=view&id=1MsTCrXPc8SfSYSrIjhaOZOcgIE2SmGph"  width="700" height="400">
 
 #  　
 감사하게도 `합격`이었다!! 상반기 때 서류 광탈해서 너무 슬펐는데 ㅠ_ㅠ
