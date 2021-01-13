@@ -4,7 +4,7 @@ title:  "안드로이드 LifeCycle에 대한 밍기적"
 summary: 안드로이드 면접 대비 공부
 author: GJ
 date: '2020-10-21 15:12:23 +0530'
-category: android
+category: Android
 comment: true
 tags: [ming-gi-jeog]
 thumbnail: /assets/img/posts/android.png
