@@ -4,7 +4,7 @@ title:  "FenwickTree에 대한 밍기적"
 summary: 알고리즘 공부
 author: GJ
 date: '2020-10-06 16:10:23 +0530'
-category: algorithm
+category: Algorithm
 comment: true
 tags: [algorithm, FenwickTree, ming-gi-jeog]
 thumbnail: /assets/img/posts/FenwickTree.jpg
