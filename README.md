@@ -5,10 +5,10 @@
 * 개발일기
 　
 ## Category
-* Algorithm
-* Etc
-* solution
-* Employment
-* Data_Engineering
-* Android
-* Computer_science
+* [Algorithm](https://sohn0356-git.github.io/blog/categories/Algorithm/#/)
+* [Etc](https://sohn0356-git.github.io/blog/categories/Etc/#/)
+* [solution](https://sohn0356-git.github.io/blog/categories/solution/#/)
+* [Employment](https://sohn0356-git.github.io/blog/categories/Employment/#/)
+* [Data_Engineering](https://sohn0356-git.github.io/blog/categories/Data_Engineering/#/)
+* [Android](https://sohn0356-git.github.io/blog/categories/Android/#/)
+* [Computer_science](https://sohn0356-git.github.io/blog/categories/Computer_science/#/)
