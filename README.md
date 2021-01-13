@@ -3,4 +3,12 @@
 * 알고리즘 설명
 * 알고리즘 문제풀이
 * 개발일기
-
+　
+## Category
+* Algorithm
+* Etc
+* solution
+* Employment
+* Data_Engineering
+* Android
+* Computer_science
