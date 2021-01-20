@@ -112,11 +112,11 @@ show_author_project_details: true
 
 # algolia search
 algolia:
-  application_id: S59QEBB39T
+  application_id: GVYTU0234C
   index_name: sohn0356_blog # You can replace that with whatever name you want
   files_to_exclude: []
   nodes_to_index: 'article'
-  search_only_api_key: 0c000bf80cb09ed464ac54a53d265426
+  search_only_api_key: 0991fc1efcb45b77e95e0dd8d10ddaca
 
 # pagination of posts
 paginate: 6
