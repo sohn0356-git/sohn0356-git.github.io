@@ -110,6 +110,9 @@ show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
 
+search : true
+search_full_content : true
+search_provider : algolia
 # algolia search
 algolia:
   application_id: GVYTU0234C
