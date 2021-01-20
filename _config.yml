@@ -142,6 +142,13 @@ jekyll-archives:
   permalinks:
     category: '/blog/categories/:name/'
 
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  branch: master
+  repo: https://github.com/sohn0356-git/sohn0356-git.github.io
+
 # Shop
 collections:
  - products
