@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "MariaDB 공부 4일차"
-summary: MariaDB에 대해 알아보자
+title:  "Django 공부 0일차"
+summary: Django에 대해 알아보자
 author: GJ
 date: '2021-01-20 16:08:23 +0530'
-category: Data_Engineering
+category: Web_Programming
 comment: true
 tags: [ming-gi-jeog]
-thumbnail: /assets/img/posts/search.png
+thumbnail: /assets/img/posts/newwork.jpg
 ---
 
 # Django
