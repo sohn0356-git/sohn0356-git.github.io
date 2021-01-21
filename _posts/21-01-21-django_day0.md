@@ -7,7 +7,7 @@ date: '2021-01-20 16:08:23 +0530'
 category: Web_Programming
 comment: true
 tags: [ming-gi-jeog]
-thumbnail: /assets/img/posts/newwork.jpg
+thumbnail: /assets/img/posts/network.jpg
 ---
 
 # Django
@@ -26,7 +26,7 @@ thumbnail: /assets/img/posts/newwork.jpg
 
 　
 
-<img src="https://github.com/sohn0356-git/sohn0356-git.github.io/blob/master/_posts/md-images/django_0%EC%9D%BC%EC%B0%A8_01.JPG?raw=true">
+<img src="https://github.com/sohn0356-git/sohn0356-git.github.io/blob/master/_posts/md-images/django_0%EC%9D%BC%EC%B0%A8_01.JPG?raw=true" height = "300" width="500">
 
 * 설치가 끝났으면 가상환경을 구축해야한다.
 
