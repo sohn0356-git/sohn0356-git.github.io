@@ -3,7 +3,7 @@ layout: post
 title:  "Django 공부 0일차"
 summary: Django에 대해 알아보자
 author: GJ
-date: '2021-01-20 16:08:23 +0530'
+date: '2021-01-21 16:08:23 +0530'
 category: Web_Programming
 comment: true
 tags: [ming-gi-jeog]
