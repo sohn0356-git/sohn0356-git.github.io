@@ -25,6 +25,8 @@ thumbnail: /assets/img/posts/network.jpg
 
 ### 프로젝트 뼈대 만들기💀
 
+　
+
 #### 프로젝트 생성
 
 * `django-admin startproject mysite`
@@ -39,6 +41,9 @@ thumbnail: /assets/img/posts/network.jpg
 
   * `cd mysite`
   * `python manage.py startapp polls`
+
+
+　
 
 * 이번에도 자동으로 무언가 많이 생겼다. 이처럼 필요한 파일들은 장고가 알아서 생성해준다.
 
@@ -77,7 +82,7 @@ DATABASES = {
 
 * 장고는 sqlite3를 데이터베이스 엔진으로 사용한다. 혹시 MySQL이나 다른 데이터베이스로 변경하소 싶다면 이 부분을 고쳐주자!
 
-
+　
 
 ```python
 TIME_ZONE = 'UTC'
@@ -100,7 +105,7 @@ TIME_ZONE = 'UTC'
 
   * `python manage.py migrate`
 
-
+　
 
 #### 작업 확인
 
@@ -110,7 +115,7 @@ TIME_ZONE = 'UTC'
 
 <img src="https://github.com/sohn0356-git/sohn0356-git.github.io/blob/master/_posts/md-images/django_1%EC%9D%BC%EC%B0%A8_02.JPG?raw=true">
 
-
+　
 
 ### Model 코딩
 
@@ -145,7 +150,7 @@ class Choice(models.Model):
         return self.choice_text
 ```
 
-
+　
 
 지금 우리는 Question과 Choice라는 2개의 테이블을 생성한 것이다.
 

@@ -34,10 +34,10 @@ thumbnail: /assets/img/posts/network.jpg
 
 ### 가상환경 구축
 
-    1. `ctrl` + `shift` + `` `을 눌러서 새로운 터미널을 켜자
-    2. `python -m venv myvenv`를 입력하여 myvenv라는 가상환경을 구축하자
-    3. `cd ./myvenv/Scripts`를 입력하여 디렉토리를 이동한 뒤
-    4. `activate`를 입력하여 가상환경을 시작하자
+1. `ctrl` + `shift` + `` `을 눌러서 새로운 터미널을 켜자
+2. `python -m venv myvenv`를 입력하여 myvenv라는 가상환경을 구축하자
+3. `cd ./myvenv/Scripts`를 입력하여 디렉토리를 이동한 뒤
+4. `activate`를 입력하여 가상환경을 시작하자
 
 
 　
