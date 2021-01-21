@@ -14,12 +14,20 @@
     </ul>
   </div>
   <ul class="nav justify-content-end">
+    <form action="/search">
+      <div class="tipue_search_left">
+        <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
+      <div style="clear: both;"></div>
+    </form>
 
     <li class="nav-item">
-      <a href="/search/"><img src="/assets/images/icon/search.png"/></a>
       <a class="nav-link" id="search-icon" href="{{ site.url}}{{site.baseurl}}/search#/"><i class="fa fa-search"
           aria-hidden="true"></i></a>
     </li>
+    
     <!--
     <li class="nav-item" style="margin-top:5px; padding-right:20px;">
       <a class="header__checkout snipcart-checkout">

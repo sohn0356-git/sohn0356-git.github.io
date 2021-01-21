@@ -105,6 +105,15 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
+tipue_search:
+    include:
+        pages: false
+        collections: []
+    exclude:
+        files: [search.html, index.html, tags.html]
+        categories: []
+        tags: []
+
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
