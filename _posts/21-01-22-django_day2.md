@@ -9,7 +9,7 @@ comment: true
 tags: [ming-gi-jeog]
 thumbnail: /assets/img/posts/network.jpg
 ---
-
+ {% raw %} 
 # Django
 
 　
@@ -133,7 +133,7 @@ class BookmarkDV(DetailView):
 ```
 
 　
- {% raw %}
+ 
 **bookmark_list.html**
 
 ```html
@@ -152,7 +152,6 @@ class BookmarkDV(DetailView):
     </body>
 </html>
 ```
- {% endraw %} 
 
 　
 
@@ -434,3 +433,4 @@ urlpatterns = [
 
 
 * 다음엔 위 코드를 분석해보는 시간을 가져보자.
+ {% endraw %} 
