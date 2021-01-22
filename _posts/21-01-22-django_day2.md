@@ -157,7 +157,7 @@ class BookmarkDV(DetailView):
 
 **bookmark_detail.html**
 
-```python
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
