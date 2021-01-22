@@ -26,14 +26,14 @@ thumbnail: /assets/img/posts/network.jpg
 
 ### 실습
 
-* 목차
-
-> * [Bookmark App](#Bookmark App)
-> * [Blog App](#Blog App)
+> 목차
+>
+> * [Bookmark_App](#Bookmark_App)
+> * [Blog_App](#Blog_App)
 
 　
 
-#### Template App
+#### Template_App
 
 　
 
@@ -45,7 +45,7 @@ thumbnail: /assets/img/posts/network.jpg
 
 　
 
-#### Bookmark App
+#### Bookmark_App
 
 　
 
@@ -174,9 +174,9 @@ class BookmarkDV(DetailView):
 </html>
 ```
 
+　
 
-
-#### Blog App
+#### Blog_App
 
 　
 
