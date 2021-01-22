@@ -133,7 +133,7 @@ class BookmarkDV(DetailView):
 ```
 
 　
-
+ {% raw %}
 **bookmark_list.html**
 
 ```html
@@ -152,6 +152,7 @@ class BookmarkDV(DetailView):
     </body>
 </html>
 ```
+ {% endraw %} 
 
 　
 
