@@ -53,7 +53,8 @@ thumbnail: /assets/img/posts/network.jpg
 ##### 뼈대💀
 
 * `django-admin startproject mysite2`　
-* mysite2라는 프로젝트를 생성한다.
+
+  * mysite2라는 프로젝트를 생성한다.
 
 * `cd mysite2`
 
