@@ -3,6 +3,7 @@
 * 알고리즘 설명
 * 알고리즘 문제풀이
 * 개발일기
+* 취업기록
 　
 ## Category
 * [Algorithm](https://sohn0356-git.github.io/blog/categories/Algorithm/#/)
