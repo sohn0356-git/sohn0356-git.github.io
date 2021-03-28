@@ -29,24 +29,19 @@ urls:
 
 author_logo: profile.jpg
 author: GJ
-author_bio: "There’s a saying.
-Yesterday is a history.
-Tomorrow is a mystery.
-But today is a gift.
-That is why it is called the present
-      -Kung Fu Panda-"
+author_bio: 안녕하세요 방문해주셔서 감사합니다. 혹시 보시면서 궁금하신것 있으시면 https://open.kakao.com/o/sivaz71c로 연락주세용~
 author_email: "sohn0356@naver.com"
 author_location: Korea
 author_website_url: "https://sohn0356-git.github.io"
 typewrite-text: "In all thy ways acknowledge him, and he shall direct thy paths."
 
-#author_work_experiences:
-#            - company_name: Google
+author_work_experiences:
+           - company_name: 현대모비스
 #              company_logo: google.png
-#              company_url: https://google.com
-#              designation: Software Engineer
-#              description: Worked on various Google Products
-#              visibility: true
+             company_url: https://www.mobis.co.kr/main/index.do
+             designation: Software Engineer
+             description: ADAS SW 개발직무
+             visibility: true
 #            - company_name: Microsoft
 #              company_logo: microsoft.png
 #              company_url: https://microsoft.com
