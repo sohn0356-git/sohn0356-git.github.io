@@ -37,7 +37,7 @@ typewrite-text: "In all thy ways acknowledge him, and he shall direct thy paths.
 
 author_work_experiences:
            - company_name: 현대모비스
-#              company_logo: google.png
+             company_logo: mobis.jpg
              company_url: https://www.mobis.co.kr/main/index.do
              designation: Software Engineer
              description: ADAS SW 개발직무
