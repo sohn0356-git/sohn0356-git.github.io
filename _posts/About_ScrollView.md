@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "22-03-01 개발일기"
-summary: react-native 개발일기
+title:  "About_ScrollView"
+summary: About_ScrollView
 author: GJ
-date: '2022-03-01 11:55:23 +0530'
+date: '2022-03-01 14:55:23 +0530'
 category: Development
 comment: true
 tags: [TIL]
