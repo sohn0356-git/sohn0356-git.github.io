@@ -1,6 +1,6 @@
 <header class="journal-header">
 <a class="journal-brand" href="{{ '/' | relative_url }}"><span class="brand-symbol" aria-hidden="true">g.</span><span>{{ site.title }}<small>GJ’S DEV JOURNAL</small></span></a>
-<nav class="journal-nav" aria-label="주 메뉴"><a href="{{ '/blog/' | relative_url }}">모든 글</a><a href="{{ '/categories/' | relative_url }}">카테고리</a><a href="{{ '/about/' | relative_url }}">소개</a></nav>
+<nav class="journal-nav" aria-label="주 메뉴"><a href="{{ '/blog/' | relative_url }}">모든 글</a><a href="{{ '/categories/' | relative_url }}">카테고리</a><a href="{{ '/about/' | relative_url }}">소개</a>{% for item in site.urls %}{% unless item.url == "/about" or item.url == "/blog" %}<a href="{{ item.url | relative_url }}">{{ item.text | escape }}</a>{% endunless %}{% endfor %}</nav>
 <div class="journal-tools"><a class="search-link" href="{{ '/search/' | relative_url }}" aria-label="글 검색">검색 ↗</a><label class="theme-control" title="다크 모드 전환"><input id="theme-toggle" type="checkbox" onclick="modeSwitcher()" aria-label="화면 테마 전환"><span aria-hidden="true">◐</span></label></div>
 </header>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8567892469623450" crossorigin="anonymous"></script>
