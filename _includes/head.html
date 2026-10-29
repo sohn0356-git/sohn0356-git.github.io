@@ -2,10 +2,10 @@
   <meta name="google-adsense-account" content="ca-pub-3662734468826692" />
   <meta charset="utf-8" />
   <title>
-    {% if {page.title %}{{ page.title }}{% else %}{{ site.title }} - {{
+    {% if page.title %}{{ page.title }}{% else %}{{ site.title }} - {{
     site.subtitle }}{% endif %}
   </title>
-  <meta http-equip="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="{% if {page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="keywords"
@@ -148,4 +148,5 @@
 <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
 <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
 <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
+<link rel="stylesheet" href="{{ "/assets/css/journal.css" | relative_url }}">
 </head>

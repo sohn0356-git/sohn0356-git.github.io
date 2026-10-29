@@ -1,12 +1,4 @@
 ---
 layout: default
 ---
-
-<div class="row" id="blog-posts-container">
-        <div class="col-lg-11 offset-md-1">
-                <div class="card">
-                        <h1 class="card-title"> Gallery </h1>
-                          {{content}}
-                </div>
-        </div>
-</div>
+<section class="journal-section archive"><div class="section-heading"><div><p class="eyebrow">EXPLORE BY TOPIC</p><h1>카테고리</h1><p>관심 있는 주제부터 읽어보세요.</p></div></div><div class="topic-links">{% assign sorted_categories = site.categories | sort %}{% for category in sorted_categories %}<a href="{{ '/blog/categories/' | relative_url }}{{ category[0] }}/"><span>{{ category[0] | replace: '_', ' ' }}</span><span>{{ category[1] | size }}개의 글 ↗</span></a>{% endfor %}</div></section>

@@ -1,55 +1,9 @@
 ---
 layout: default
 ---
-
-<script>
-  $(document).ready(function () {
-    $("#typewriteText").typewrite({
-      actions: [{ type: "{{site.typewrite-text}}" }]
-    });
-  });
-</script>
-<div class="jumbotron"
-  style="text-align: center; background-image:url(/assets/img/bg_gr.jpg); background-size: cover;">
-  <img class="author-profile-img" src="/assets/img/profile.png" />
-  <p class="jumbotron-heading" style="text-shadow: white;">Hi, I am {{site.author}} !</p>
-  <p class="jumbotron-heading"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsohn0356-git.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></p>
-  <p class="lead" style="text-shadow: white;" id="typewriteText"></p>
-</div>
-<div class="col-lg-8 offset-md-2">
-  <section id="recent-articles">
-    <div id="recent-articles-header">
-      <div id="recent-articles-title">
-        <h1 class="card-title">Recent Articles</h1>
-      </div>
-      <div id="recent-articles-show-all">
-        <a class="btn btn-lg btn-dark" href="/blog"> View All </a>
-      </div>
-    </div>
-    <br />
-
-    <ul>
-      {% for post in site.posts limit:5 %}
-      <li class="article-card">
-        <a href="{{post.url}}" class="article-card-link">
-          <div id="article-container">
-            <div id="article-img">
-              <img src="/assets/img/{{site.author_logo}}" width="50px" height="50px" />
-            </div>
-            <div id="article-link">
-              <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time
-                      datetime="{{ post.date }}"
-                      itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span></p>
-            </div>
-            <div id="article-alert">
-              {% for cat in post.category limit:1 %}
-              <button class="btn btn-sm btn-dark">{{cat}}</button>
-              {% endfor %}
-            </div>
-          </div>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
-</div>
+<section class="journal-hero">
+<div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> GJ’S PERSONAL NOTEBOOK</p><h1>오늘 배운 것들이<br>내일의 <span>코드가 되도록.</span></h1><p class="hero-description">알고리즘부터 개발의 작은 발견까지.<br>직접 부딪히며 배운 것들을 차곡차곡 기록합니다.</p><div class="hero-actions"><a class="journal-button" href="{{ '/blog/' | relative_url }}">기록 살펴보기 <span>↗</span></a><a href="{{ '/about/' | relative_url }}">안녕하세요, GJ입니다 <span>→</span></a></div><p class="hero-caption">LEARN. BUILD. WRITE. REPEAT.</p></div>
+<aside class="notebook" aria-label="블로그 소개"><div class="notebook-top"><span>THE DEVELOPER’S NOTEBOOK</span><span>01 / ∞</span></div><div class="notebook-art" aria-hidden="true"><span class="art-bracket">{</span><div class="art-lines"><i></i><i></i><i></i><i></i></div><span class="art-bracket">}</span><span class="art-star">✳</span></div><h2>작은 기록,<br>꾸준한 성장.</h2><div class="notebook-bottom"><span>Written by {{ site.author }}</span><span>{{ site.posts | size }} notes ↗</span></div></aside>
+</section>
+<section class="journal-section" id="latest"><div class="section-heading"><div><p class="eyebrow">RECENT ENTRIES</p><h2>최근의 기록<span class="count">{{ site.posts | size }}</span></h2></div><a href="{{ '/blog/' | relative_url }}">모든 글 보기 ↗</a></div><div class="entry-grid">{% for post in site.posts limit:6 %}{% include journal_entry.html %}{% endfor %}</div></section>
+<section class="topics-section"><div><p class="eyebrow">EXPLORE BY TOPIC</p><h2>어떤 이야기가 궁금하세요?</h2></div><div class="topic-links">{% assign sorted_categories = site.categories | sort %}{% for category in sorted_categories %}<a href="{{ '/blog/categories/' | relative_url }}{{ category[0] }}/"><span>{{ category[0] | replace: '_', ' ' }}</span><span>{{ category[1] | size }} ↗</span></a>{% endfor %}</div></section>
