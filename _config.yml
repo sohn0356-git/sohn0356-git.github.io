@@ -8,6 +8,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # remote-theme: sujaykundu777/devlopr-jekyll 
 
 urls:
+    - text: AI City
+      url: /ai_city/guide.html
     - text: About Me
       url: /about
     - text: Blog
